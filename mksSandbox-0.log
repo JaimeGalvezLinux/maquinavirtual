@@ -1,0 +1,712 @@
+2022-08-02T09:49:25.226Z In(05) mks Log for VMware Player pid=36515 version=16.2.4 build=build-20089737 option=Release
+2022-08-02T09:49:25.226Z In(05) mks The host is 64-bit.
+2022-08-02T09:49:25.226Z In(05) mks Host codepage=UTF-8 encoding=UTF-8
+2022-08-02T09:49:25.226Z In(05) mks Host is Linux 5.15.0-41-generic Zorin OS 16.1 Zorin OS 16
+2022-08-02T09:49:25.226Z In(05) mks Host offset from UTC is +02:00.
+2022-08-02T09:49:25.231Z In(05) main  VTHREAD 140717199731648 "main" tid 36542
+2022-08-02T09:49:25.231Z In(05) main  MKSRoleMain: Initializing MKSSandbox...
+2022-08-02T09:49:25.231Z In(05) main  MKSRoleMain: Initializing FeatureState...
+2022-08-02T09:49:25.231Z In(05) main  MKSRoleMain: Initializing Locale...
+2022-08-02T09:49:25.231Z In(05) main  LOCALE es_ES.UTF-8 -> es
+2022-08-02T09:49:25.231Z In(05) main  Msg_SetLocaleEx: HostLocale=UTF-8 UserLocale=es
+2022-08-02T09:49:25.231Z In(05) main  PREF early PreferenceGet(libdir), using default
+2022-08-02T09:49:25.231Z In(05) main  DictionaryLoad: Cannot open file "/usr/lib/vmware/messages/es/vmware-mks.vmsg": No such file or directory.
+2022-08-02T09:49:25.231Z In(05) main  [msg.dictionary.load.openFailed] Cannot open file "/usr/lib/vmware/messages/es/vmware-mks.vmsg": No such file or directory.
+2022-08-02T09:49:25.231Z Wa(03) main  Cannot load message dictionary "/usr/lib/vmware/messages/es/vmware-mks.vmsg".
+2022-08-02T09:49:25.231Z In(05) main  MKSRoleMain: Initializing Preference...
+2022-08-02T09:49:25.231Z In(05) main  DictionaryLoad: Cannot open file "/usr/lib/vmware/settings": No such file or directory.
+2022-08-02T09:49:25.231Z In(05) main  [msg.dictionary.load.openFailed] Cannot open file "/usr/lib/vmware/settings": No such file or directory.
+2022-08-02T09:49:25.231Z In(05) main  PREF Optional preferences file not found at /usr/lib/vmware/settings. Using default values.
+2022-08-02T09:49:25.231Z In(05) main  DictionaryLoad: Cannot open file "/home/jaime/.vmware/config": No such file or directory.
+2022-08-02T09:49:25.231Z In(05) main  [msg.dictionary.load.openFailed] Cannot open file "/home/jaime/.vmware/config": No such file or directory.
+2022-08-02T09:49:25.231Z In(05) main  PREF Optional preferences file not found at /home/jaime/.vmware/config. Using default values.
+2022-08-02T09:49:25.231Z In(05) main  MKSRoleMain: Initializing Poll...
+2022-08-02T09:49:25.231Z In(05) main  MKSRoleMain: Initializing Log...
+2022-08-02T09:49:25.232Z In(05) main  MKSRoleMain: Found Config Settings:
+2022-08-02T09:49:25.232Z In(05) main  DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2022-08-02T09:49:25.232Z In(05) main  DICT --- NON PERSISTENT (null)
+2022-08-02T09:49:25.232Z In(05) main  DICT --- USER PREFERENCES /home/jaime/.vmware/preferences
+2022-08-02T09:49:25.232Z In(05) main  DICT   pref.lastUpdateCheckSec = "1659365291"
+2022-08-02T09:49:25.232Z In(05) main  DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2022-08-02T09:49:25.232Z In(05) main  DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2022-08-02T09:49:25.232Z In(05) main  DICT pref.vmplayer.firstRunDismissedVersion = "16.2.4"
+2022-08-02T09:49:25.232Z In(05) main  DICT vmWizard.isoLocationMRU.count = "1"
+2022-08-02T09:49:25.232Z In(05) main  DICT vmWizard.isoLocationMRU0.location = "/home/jaime/Descargas/Windows11LiteOSNexus.v22621.169.NoTPM.taiwebs.com/Windows 11 LiteOS Nexus Build 22621.169 (No TPM Required)/Nexus.LiteOS.11.x64.(22621.169).iso"
+2022-08-02T09:49:25.232Z In(05) main  DICT         vmWizard.guestKey = "windows9-64"
+2022-08-02T09:49:25.232Z In(05) main  DICT vmWizard.installMediaType = "later"
+2022-08-02T09:49:25.232Z In(05) main  DICT             hints.hideAll = "FALSE"
+2022-08-02T09:49:25.232Z In(05) main  DICT pref.vmplayer.fullscreenMRU.count = "0"
+2022-08-02T09:49:25.232Z In(05) main  DICT hint.usb.disconnectHostDriver = "FALSE"
+2022-08-02T09:49:25.232Z In(05) main  DICT  hint.vmui.showAllUSBDevs = "FALSE"
+2022-08-02T09:49:25.232Z In(05) main  DICT  hint.vmui.showNewUSBDevs = "FALSE"
+2022-08-02T09:49:25.232Z In(05) main  DICT pref.vmplayer.fullscreen.autohide = "TRUE"
+2022-08-02T09:49:25.232Z In(05) main  DICT --- USER DEFAULTS /home/jaime/.vmware/config
+2022-08-02T09:49:25.232Z In(05) main  DICT --- HOST DEFAULTS /etc/vmware/config
+2022-08-02T09:49:25.232Z In(05) main  DICT             telemetryUUID = "9b46dc07-02c4-11ed-a96a-e070eac6b849"
+2022-08-02T09:49:25.232Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "7149750858"
+2022-08-02T09:49:25.232Z In(05) main  DICT installerDefaults.dataCollectionEnabled.epoch = "4198314061"
+2022-08-02T09:49:25.232Z In(05) main  DICT installerDefaults.componentDownloadEnabled = "yes"
+2022-08-02T09:49:25.232Z In(05) main  DICT installerDefaults.transferVersion = "1"
+2022-08-02T09:49:25.232Z In(05) main  DICT              product.name = "VMware Player"
+2022-08-02T09:49:25.232Z In(05) main  DICT                    libdir = "/usr/lib/vmware"
+2022-08-02T09:49:25.232Z In(05) main  DICT                    bindir = "/usr/bin"
+2022-08-02T09:49:25.232Z In(05) main  DICT             initscriptdir = "/etc/init.d"
+2022-08-02T09:49:25.232Z In(05) main  DICT           gksu.rootMethod = "sudo"
+2022-08-02T09:49:25.232Z In(05) main  DICT                NETWORKING = "yes"
+2022-08-02T09:49:25.232Z In(05) main  DICT            authd.fullpath = "/usr/sbin/vmware-authd"
+2022-08-02T09:49:25.232Z In(05) main  DICT       product.buildNumber = "20089737"
+2022-08-02T09:49:25.232Z In(05) main  DICT    player.product.version = "16.2.4"
+2022-08-02T09:49:25.232Z In(05) main  DICT        vix.config.version = "1"
+2022-08-02T09:49:25.232Z In(05) main  DICT           product.version = "16.2.4"
+2022-08-02T09:49:25.232Z In(05) main  DICT                acceptEULA = "yes"
+2022-08-02T09:49:25.232Z In(05) main  DICT             acceptOVFEULA = "yes"
+2022-08-02T09:49:25.232Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2022-08-02T09:49:25.232Z In(05) main  DICT installerDefaults.dataCollectionEnabled = "yes"
+2022-08-02T09:49:25.232Z In(05) main  DICT installerDefaults.dataCollectionEnabled.initialized = "yes"
+2022-08-02T09:49:25.232Z In(05) main  DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2022-08-02T09:49:25.232Z In(05) main  DICT                  tag.help = "introduction.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT   tag.configurationEditor = "config_editor_newvm.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT             tag.ideConfig = "devices_virtualdrive.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT          tag.floppyConfig = "devices_floppy.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT           tag.mouseConfig = "devices_mouse.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT             tag.netConfig = "devices_netadapter.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT        tag.parallelConfig = "devices_parallel.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT          tag.serialConfig = "devices_serial.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT           tag.soundConfig = "devices_sound.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT             tag.memConfig = "configvm_memory.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT            tag.miscConfig = "configvm.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT             tag.usbConfig = "devices_usb.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT         tag.displayConfig = "configvm_display-problems.htm"
+2022-08-02T09:49:25.232Z In(05) main  DICT                 tag.tools = "vmtools.htm"
+2022-08-02T09:49:25.232Z In(05) main  Msg_SetLocaleEx: HostLocale=UTF-8 UserLocale=es
+2022-08-02T09:49:25.232Z In(05) main  DictionaryLoad: Cannot open file "/usr/lib/vmware/messages/es/vmware.vmsg": No such file or directory.
+2022-08-02T09:49:25.232Z In(05) main  [msg.dictionary.load.openFailed] Cannot open file "/usr/lib/vmware/messages/es/vmware.vmsg": No such file or directory.
+2022-08-02T09:49:25.232Z Wa(03) main  Cannot load message dictionary "/usr/lib/vmware/messages/es/vmware.vmsg".
+2022-08-02T09:49:25.232Z In(05) main  MKSRoleMain: Initializing Sig
+2022-08-02T09:49:25.232Z In(05) main  MKSRoleMain: Initializing MKS
+2022-08-02T09:49:25.232Z In(05) main  MKSXlib: Initialized thread-safe Xlib
+2022-08-02T09:49:25.232Z In(05) main  MKSRoleMain: Powering on.
+2022-08-02T09:49:25.232Z In(05) main  MKSRoleMain: Powering on SigMKS
+2022-08-02T09:49:25.232Z In(05) main  MKSSandbox: Powering on MKSSandboxComm
+2022-08-02T09:49:25.232Z In(05) main  MKSRoleMain: Powering on MKS
+2022-08-02T09:49:25.232Z In(05) main  MKS PowerOn
+2022-08-02T09:49:25.232Z In(05) mks  VTHREAD 140716074424064 "mks" tid 36543
+2022-08-02T09:49:25.232Z In(05) mks  MKS thread is alive
+2022-08-02T09:49:25.232Z In(05) svga  VTHREAD 140716072322816 "svga" tid 36544
+2022-08-02T09:49:25.232Z In(05) svga  SVGA thread is alive
+2022-08-02T09:49:25.232Z In(05) mks  MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2022-08-02T09:49:25.233Z In(05) mks  MKS-RenderMain: PowerOn allowed VKRenderer 
+2022-08-02T09:49:25.233Z In(05) mks  MKS-RenderMain: ISB not enabled by config
+2022-08-02T09:49:25.233Z In(05) mks  MKS-RenderMain: Collecting RenderOps caps from VKRenderer
+2022-08-02T09:49:25.233Z In(05) mks  MKS-RenderMain: Starting VKRenderer
+2022-08-02T09:49:25.235Z In(05) mks  MKSXInput: XI major version 2, minor version 3
+2022-08-02T09:49:25.235Z In(05) mks  Vulkan Renderer: VKRDevice_Create trying DISPLAY=:1
+2022-08-02T09:49:26.306Z In(05) mks  Vulkan Renderer: Only the AMDVLK driver is supported at this time.
+2022-08-02T09:49:26.306Z In(05) mks  Vulkan Renderer: Available Vulkan devices:
+2022-08-02T09:49:26.306Z In(05) mks  Vulkan Renderer: Vulkan Device 0:
+2022-08-02T09:49:26.306Z In(05) mks  Vulkan Renderer:   Vendor= 'AMD'
+2022-08-02T09:49:26.306Z In(05) mks  Vulkan Renderer:   ID= 0x1638
+2022-08-02T09:49:26.306Z In(05) mks  Vulkan Renderer:   Type= 0x1
+2022-08-02T09:49:26.306Z In(05) mks  Vulkan Renderer:   Name= 'AMD RADV RENOIR'
+2022-08-02T09:49:26.306Z In(05) mks  Vulkan Renderer:   GPU chip= Unknown (RDNA?)
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   GPU type= Integrated
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Driver Name= 'radv'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Driver Version= 0x5402006
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Driver Info= 'Mesa 21.2.6'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   API Version= 1.2.182
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer: Vulkan Device 1:
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Vendor= 'Mesa'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   ID= 0x0
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Type= 0x4
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Name= 'llvmpipe (LLVM 12.0.0, 256 bits)'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   GPU chip= Unknown (Unknown)
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   GPU type= CPU
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Driver Name= 'llvmpipe'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Driver Version= 0x1
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Driver Info= 'Mesa 21.2.6 (LLVM 12.0.0)'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   API Version= 1.1.182
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer: Vulkan Device 2:
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Vendor: 'NVIDIA'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   ID: 0x1f9d
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Type: 0x2
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Name: 'NVIDIA GeForce GTX 1650'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   GPU chip: Unknown (Unknown)
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   GPU type: Discrete
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Driver Name: 'NVIDIA'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Driver Version: 0x75a04180
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   Driver Info: '470.129.06'
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer:   API Version: 1.2.175
+2022-08-02T09:49:26.307Z In(05) mks  Vulkan Renderer: Using device 2 of 3
+2022-08-02T09:49:26.350Z In(05) mks  XConnection: Closing console display
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: VKRDevice_Create: Succeeded with DISPLAY=(null)
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: Physical Device Limits:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxImageDimension2D=32768
+2022-08-02T09:49:26.351Z In(05)+ mks  Vulkan Renderer:   maxVertexInputAttributes=32
+2022-08-02T09:49:26.351Z In(05)+ mks  Vulkan Renderer:   maxBoundDescriptorSets=32
+2022-08-02T09:49:26.351Z In(05)+ mks  Vulkan Renderer:   maxDescriptorSetUniformBuffers=1048576
+2022-08-02T09:49:26.351Z In(05)+ mks  Vulkan Renderer:   minUniformBufferOffsetAlignment=64
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTessellationGenerationLevel=64
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTessellationPatchSize=32
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTessellationControlPerVertexInputComponents=128
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTessellationControlPerVertexOutputComponents=128
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTessellationControlPerPatchOutputComponents=120
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTessellationControlTotalOutputComponents=4216
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTessellationEvaluationInputComponents=128
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTessellationEvaluationOutputComponents=128
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   pointSizeRange = 1.000000, 2047.937500
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   pointSizeGranularity = 0.062500
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   lineWidthRange = 1.000000, 64.000000
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   lineWidthGranularity = 0.062500
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   strictLines = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   standardSampleLocations = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxMemoryAllocationCount = 4294967295
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxPushConstantsSize = 256
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   robustBufferAccess=1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   imageCubeArray=1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   geometryShader=1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   tessellationShader=1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   wideLines=1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   largePoints=1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderFloat64=1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: VK_EXT_custom_border_color:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   customBorderColorWithoutFormat = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxCustomBorderColorSamplers = 4000
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: VK_EXT_line_rasterization:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   rectangularLines = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   bresenhamLines = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   smoothLines = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   stippledRectangularLines = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   stippledBresenhamLines = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   stippledSmoothLines = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   lineSubPixelPrecisionBits = 8
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: VK_EXT_transform_feedback:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   transformFeedback = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   geometryStreams = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTransformFeedbackStreams = 4
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTransformFeedbackBuffers = 4
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTransformFeedbackBufferSize = 18446744073709551615
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTransformFeedbackStreamDataSize = 2048
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTransformFeedbackBufferDataSize = 512
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxTransformFeedbackBufferDataStride = 2048
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   transformFeedbackQueries = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   transformFeedbackStreamsLinesTriangles = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   transformFeedbackRasterizationStreamSelect = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   transformFeedbackDraw = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: VK_EXT_vertex_attribute_divisor:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   vertexAttributeInstanceRateDivisor = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   vertexAttributeInstanceRateZeroDivisor = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   maxVertexAttribDivisor = 4294967295
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: VK_EXT_ycbcr_image_arrays:
+2022-08-02T09:49:26.351Z In(05)+ mks  Vulkan Renderer:   ycbcrImageArrays = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: VK_KHR_sampler_ycbcr_conversion:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   samplerYcbcrConversion = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   VK_FORMAT_G8B8G8R8_422_UNORM's PFF flags: SAMPLED_IMAGE | SAMPLED_IMAGE_FILTER_LINEAR | TRANSFER_SRC | TRANSFER_DST | MIDPOINT_CHROMA_SAMPLES | SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER | SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER | COSITED_CHROMA_SAMPLES | SAMPLED_IMAGE_FILTER_MINMAX_EXT
+2022-08-02T09:49:26.351Z In(05)+ mks  
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   VK_FORMAT_B8G8R8G8_422_UNORM's PFF flags: SAMPLED_IMAGE | SAMPLED_IMAGE_FILTER_LINEAR | TRANSFER_SRC | TRANSFER_DST | MIDPOINT_CHROMA_SAMPLES | SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER | SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER | COSITED_CHROMA_SAMPLES | SAMPLED_IMAGE_FILTER_MINMAX_EXT
+2022-08-02T09:49:26.351Z In(05)+ mks  
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM's PFF flags: SAMPLED_IMAGE | SAMPLED_IMAGE_FILTER_LINEAR | TRANSFER_SRC | TRANSFER_DST | MIDPOINT_CHROMA_SAMPLES | SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER | SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER | DISJOINT | COSITED_CHROMA_SAMPLES | SAMPLED_IMAGE_FILTER_MINMAX_EXT
+2022-08-02T09:49:26.351Z In(05)+ mks  
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   VK_FORMAT_G8_B8R8_2PLANE_420_UNORM's PFF flags: SAMPLED_IMAGE | SAMPLED_IMAGE_FILTER_LINEAR | TRANSFER_SRC | TRANSFER_DST | MIDPOINT_CHROMA_SAMPLES | SAMPLED_IMAGE_YCBCR_CONVERSION_LINEAR_FILTER | SAMPLED_IMAGE_YCBCR_CONVERSION_SEPARATE_RECONSTRUCTION_FILTER | DISJOINT | COSITED_CHROMA_SAMPLES | SAMPLED_IMAGE_FILTER_MINMAX_EXT
+2022-08-02T09:49:26.351Z In(05)+ mks  
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: VK_KHR_shader_float_controls:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   denormBehaviorIndependence = VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   roundingModeIndependence = VK_SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderSignedZeroInfNanPreserveFloat16 = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderSignedZeroInfNanPreserveFloat32 = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderSignedZeroInfNanPreserveFloat64 = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderDenormPreserveFloat16 = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderDenormPreserveFloat32 = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderDenormPreserveFloat64 = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderDenormFlushToZeroFloat16 = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderDenormFlushToZeroFloat32 = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderDenormFlushToZeroFloat64 = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderRoundingModeRTEFloat16 = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderRoundingModeRTEFloat32 = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderRoundingModeRTEFloat64 = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderRoundingModeRTZFloat16 = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderRoundingModeRTZFloat32 = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   shaderRoundingModeRTZFloat64 = 1
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer: Memory properties:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   Memory Heaps:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      0: size = 4096 MB  flags = VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      1: size = 11501 MB  flags = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      2: size = 246 MB  flags = VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:   Memory Types:
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      0: heapIndex = 1  flags = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      1: heapIndex = 1  flags = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      2: heapIndex = 1  flags = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      3: heapIndex = 1  flags = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      4: heapIndex = 1  flags = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      5: heapIndex = 1  flags = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      6: heapIndex = 1  flags = 0
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      7: heapIndex = 0  flags = VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      8: heapIndex = 1  flags = VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT | VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:      9: heapIndex = 1  flags = VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT | VK_MEMORY_PROPERTY_HOST_COHERENT_BIT | VK_MEMORY_PROPERTY_HOST_CACHED_BIT
+2022-08-02T09:49:26.351Z In(05) mks  Vulkan Renderer:     10: heapIndex = 2  flags = VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT | VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+2022-08-02T09:49:26.352Z In(05) mks  Started Shim3D
+2022-08-02T09:49:26.352Z In(05) mks  MKS-RenderMain: Started VKRenderer
+2022-08-02T09:49:26.352Z In(05) mks  MKS-RenderMain: Found Full Renderer: VKRenderer
+2022-08-02T09:49:26.352Z In(05) mks  MKS-RenderMain: maxTextureSize=32768
+2022-08-02T09:49:26.352Z In(05) mks  MKSControlMgr: connected
+2022-08-02T09:49:26.353Z In(05) mks  MKSRemoteMgr: Set default display name: Windows 11 Office
+2022-08-02T09:49:26.353Z In(05) mks  MKSRemoteMgr: Loading VNC Configuration from VM config file
+2022-08-02T09:49:26.353Z In(05) mks  MKSRemoteMgr: Using default VNC keymap table "us"
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID vendor: AuthenticAMD
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID family: 0x19 model: 0x50 stepping: 0x0
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID codename: Zen3
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID name: AMD Ryzen 5 5600H with Radeon Graphics         
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000000, 0: 0x00000010 0x68747541 0x444d4163 0x69746e65
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000001, 0: 0x00a50f00 0x0a0c0800 0x7ef8320b 0x178bfbff
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000002, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000011
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000006, 0: 0x00000004 0x00000000 0x00000001 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000007, 0: 0x00000000 0x219c97a9 0x0040069c 0x00000010
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x0000000a
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000b, 1: 0x00000004 0x0000000c 0x00000201 0x0000000a
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x0000000a
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 0: 0x00000207 0x00000988 0x00000988 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 1: 0x0000000f 0x00000348 0x00001800 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 8: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, 9: 0x00000008 0x00000980 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, b: 0x00000010 0x00000000 0x00000001 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000d, c: 0x00000018 0x00000000 0x00000001 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000f, 0: 0x00000000 0x000000ff 0x00000000 0x00000002
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 0000000f, 1: 0x00000000 0x00000040 0x000000ff 0x00000007
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000010, 0: 0x00000000 0x00000002 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000010, 1: 0x0000000f 0x00000000 0x00000004 0x0000000f
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000010, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000000, 0: 0x80000023 0x68747541 0x444d4163 0x69746e65
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000001, 0: 0x00a50f00 0x00000000 0x75c237ff 0x2fd3fbff
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000002, 0: 0x20444d41 0x657a7952 0x2035206e 0x30303635
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000003, 0: 0x69772048 0x52206874 0x6f656461 0x7247206e
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000004, 0: 0x69687061 0x20207363 0x20202020 0x00202020
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000005, 0: 0xff40ff40 0xff40ff40 0x20080140 0x20080140
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000006, 0: 0x48002200 0x68004200 0x02006140 0x00809140
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000007, 0: 0x00000000 0x0000003b 0x00000000 0x00006799
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000008, 0: 0x00003030 0x191ef657 0x0000400b 0x00010000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000000a, 0: 0x00000001 0x00008000 0x00000000 0x101bbcff
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000014, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000015, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000016, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000017, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000018, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000019, 0: 0xf040f040 0xf0400000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001a, 0: 0x00000006 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001b, 0: 0x000003ff 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001d, 0: 0x00004121 0x01c0003f 0x0000003f 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001d, 1: 0x00004122 0x01c0003f 0x0000003f 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001d, 2: 0x00004143 0x01c0003f 0x000003ff 0x00000002
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001d, 3: 0x0002c163 0x03c0003f 0x00003fff 0x00000001
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001e, 0: 0x0000000a 0x00000105 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 8000001f, 0: 0x0001780f 0x00000000 0x00000000 0x00000001
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000020, 0: 0x00000000 0x00000002 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000020, 1: 0x0000000b 0x00000000 0x00000000 0x0000000f
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000021, 0: 0x0000004d 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000022, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  hostCPUID level 80000023, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-08-02T09:49:26.353Z In(05) main  PStrIntern expansion: nBkts=256
+2022-08-02T09:49:26.353Z In(05) main  VMFeature_GetHostCaps: hostCaps:
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.sse3 = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.pclmulqdq = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.mwait = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.ssse3 = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.fma = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.cmpxchg16b = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.sse41 = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.sse42 = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.movbe = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.popcnt = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.aes = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.xsave = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.avx = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.f16c = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.rdrand = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.fsgsbase = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.bmi1 = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.avx2 = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.smep = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.bmi2 = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.enfstrg = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.invpcid = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.rdseed = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.adx = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.smap = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.clflushopt = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.clwb = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.sha = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.umip = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.pku = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.vaes = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.vpclmulqdq = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.rdpid = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.fast_short_repmov = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.xcr0_master_sse = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.xcr0_master_ymm_h = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.xcr0_master_pkru = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.xsaveopt = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.xsavec = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.xgetbv_ecx1 = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.xsaves = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.lahf64 = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.svm = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.extapicspc = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.cr8avail = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.abm = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.sse4a = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.misaligned_sse = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.3dnprefetch = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.nx = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.mmxext = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.ffxsr = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.pdpe1gb = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.rdtscp = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.lm = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.clzero = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.wbnoinvd = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.leaf88_ssbd_spec_ctrl = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.leaf88_psfd = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.svm_npt = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.svm_nrip = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.svm_vmcb_clean = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.svm_flush_by_asid = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.svm_decode_assists = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.svm_gmet = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.sev = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.sev_es = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.always_serializing_lfence = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.amd = 1
+2022-08-02T09:49:26.353Z In(05) main  Capability Found: cpuid.ibpb = 1
+2022-08-02T09:49:26.353Z In(05) main  MKSRoleMain: PowerOn finished.
+2022-08-02T09:49:26.354Z In(05) svga  SVGA3dDevCaps: replayFifo host
+2022-08-02T09:49:26.354Z In(05) svga    cap[  0]: 0x00000001 (3D)
+2022-08-02T09:49:26.354Z In(05) svga    cap[  1]: 0x00000008 (MAX_LIGHTS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[  2]: 0x00000008 (MAX_TEXTURES)
+2022-08-02T09:49:26.354Z In(05) svga    cap[  3]: 0x00000008 (MAX_CLIP_PLANES)
+2022-08-02T09:49:26.354Z In(05) svga    cap[  4]: 0x00000007 (VERTEX_SHADER_VERSION)
+2022-08-02T09:49:26.354Z In(05) svga    cap[  5]: 0x00000001 (VERTEX_SHADER)
+2022-08-02T09:49:26.354Z In(05) svga    cap[  6]: 0x0000000d (FRAGMENT_SHADER_VERSION)
+2022-08-02T09:49:26.354Z In(05) svga    cap[  7]: 0x00000001 (FRAGMENT_SHADER)
+2022-08-02T09:49:26.354Z In(05) svga    cap[  8]: 0x00000008 (MAX_RENDER_TARGETS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[  9]: 0x00000001 (S23E8_TEXTURES)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 10]: 0x00000001 (S10E5_TEXTURES)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 11]: 0x00000004 (MAX_FIXED_VERTEXBLEND)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 12]: 0x00000001 (D16_BUFFER_FORMAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 13]: 0x00000001 (D24S8_BUFFER_FORMAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 14]: 0x00000001 (D24X8_BUFFER_FORMAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 15]: 0x00000001 (QUERY_TYPES)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 16]: 0x00000001 (TEXTURE_GRADIENT_SAMPLING)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 17]: 2047.000000 (MAX_POINT_SIZE)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 18]: 0x00000014 (MAX_SHADER_TEXTURES)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 19]: 0x00008000 (MAX_TEXTURE_WIDTH)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 20]: 0x00008000 (MAX_TEXTURE_HEIGHT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 21]: 0x00004000 (MAX_VOLUME_EXTENT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 22]: 0x00008000 (MAX_TEXTURE_REPEAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 23]: 0x00008000 (MAX_TEXTURE_ASPECT_RATIO)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 24]: 0x00000010 (MAX_TEXTURE_ANISOTROPY)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 25]: 0x001fffff (MAX_PRIMITIVE_COUNT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 26]: 0x000fffff (MAX_VERTEX_INDEX)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 27]: 0x0000ffff (MAX_VERTEX_SHADER_INSTRUCTIONS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 28]: 0x0000ffff (MAX_FRAGMENT_SHADER_INSTRUCTIONS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 29]: 0x00000020 (MAX_VERTEX_SHADER_TEMPS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 30]: 0x00000020 (MAX_FRAGMENT_SHADER_TEMPS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 31]: 0x03ffffff (TEXTURE_OPS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 32]: 0x0018ec1f (SURFACEFMT_X8R8G8B8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 33]: 0x0018e11f (SURFACEFMT_A8R8G8B8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 34]: 0x0008601f (SURFACEFMT_A2R10G10B10)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 35]: 0x0008601f (SURFACEFMT_X1R5G5B5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 36]: 0x0008611f (SURFACEFMT_A1R5G5B5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 37]: 0x0000611f (SURFACEFMT_A4R4G4B4)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 38]: 0x0018ec1f (SURFACEFMT_R5G6B5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 39]: 0x0000601f (SURFACEFMT_LUMINANCE16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 40]: 0x00006007 (SURFACEFMT_LUMINANCE8_ALPHA8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 41]: 0x0000601f (SURFACEFMT_ALPHA8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 42]: 0x0000601f (SURFACEFMT_LUMINANCE8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 43]: 0x000040c5 (SURFACEFMT_Z_D16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 44]: 0x000040c5 (SURFACEFMT_Z_D24S8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 45]: 0x000040c5 (SURFACEFMT_Z_D24X8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 46]: 0x0000e005 (SURFACEFMT_DXT1)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 47]: 0x0000e005 (SURFACEFMT_DXT2)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 48]: 0x0000e005 (SURFACEFMT_DXT3)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 49]: 0x0000e005 (SURFACEFMT_DXT4)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 50]: 0x0000e005 (SURFACEFMT_DXT5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 51]: 0x00014005 (SURFACEFMT_BUMPX8L8V8U8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 52]: 0x00014007 (SURFACEFMT_A2W10V10U10)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 53]: 0x00014007 (SURFACEFMT_BUMPU8V8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 54]: 0x00014005 (SURFACEFMT_Q8W8V8U8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 55]: 0x00014001 (SURFACEFMT_CxV8U8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 56]: 0x0080601f (SURFACEFMT_R_S10E5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 57]: 0x0080601f (SURFACEFMT_R_S23E8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 58]: 0x0080601f (SURFACEFMT_RG_S10E5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 59]: 0x0080601f (SURFACEFMT_RG_S23E8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 60]: 0x0080601f (SURFACEFMT_ARGB_S10E5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 61]: 0x0080601f (SURFACEFMT_ARGB_S23E8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 62]: 0x00000000 (MISSING62)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 63]: 0x00000004 (MAX_VERTEX_SHADER_TEXTURES)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 64]: 0x00000008 (MAX_SIMULTANEOUS_RENDER_TARGETS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 65]: 0x00014007 (SURFACEFMT_V16U16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 66]: 0x0000601f (SURFACEFMT_G16R16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 67]: 0x0000601f (SURFACEFMT_A16B16G16R16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 68]: 0x01246000 (SURFACEFMT_UYVY)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 69]: 0x01246000 (SURFACEFMT_YUY2)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 70]: 0x00000000 (DEAD4)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 71]: 0x00000000 (DEAD5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 72]: 0x00000000 (DEAD7)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 73]: 0x00000000 (DEAD6)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 74]: 0x00000001 (AUTOGENMIPMAPS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 75]: 0x01246000 (SURFACEFMT_NV12)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 76]: 0x00000000 (DEAD10)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 77]: 0x00000100 (MAX_CONTEXT_IDS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 78]: 0x00008000 (MAX_SURFACE_IDS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 79]: 0x000040c5 (SURFACEFMT_Z_DF16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 80]: 0x000040c5 (SURFACEFMT_Z_DF24)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 81]: 0x000040c5 (SURFACEFMT_Z_D24S8_INT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 82]: 0x00006005 (SURFACEFMT_ATI1)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 83]: 0x00006005 (SURFACEFMT_ATI2)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 84]: 0x00000000 (DEAD1)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 85]: 0x00000000 (DEAD8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 86]: 0x00000000 (DEAD9)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 87]: 0x00000001 (LINE_AA)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 88]: 0x00000001 (LINE_STIPPLE)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 89]:  10.000000 (MAX_LINE_WIDTH)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 90]:  10.000000 (MAX_AA_LINE_WIDTH)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 91]: 0x01246000 (SURFACEFMT_YV12)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 92]: 0x00000000 (DEAD3)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 93]: 0x00000001 (TS_COLOR_KEY)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 94]: 0x00000000 (DEAD2)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 95]: 0x00000001 (DXCONTEXT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 96]: 0x00000000 (DEAD11)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 97]: 0x00000010 (DX_MAX_VERTEXBUFFERS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 98]: 0x0000000f (DX_MAX_CONSTANT_BUFFERS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[ 99]: 0x00000000 (DX_PROVOKING_VERTEX)
+2022-08-02T09:49:26.354Z In(05) svga    cap[100]: 0x000002f7 (DXFMT_X8R8G8B8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[101]: 0x000003f7 (DXFMT_A8R8G8B8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[102]: 0x000002f7 (DXFMT_R5G6B5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[103]: 0x000000f7 (DXFMT_X1R5G5B5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[104]: 0x000000f7 (DXFMT_A1R5G5B5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[105]: 0x000000f7 (DXFMT_A4R4G4B4)
+2022-08-02T09:49:26.354Z In(05) svga    cap[106]: 0x00000009 (DXFMT_Z_D32)
+2022-08-02T09:49:26.354Z In(05) svga    cap[107]: 0x0000026b (DXFMT_Z_D16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[108]: 0x0000026b (DXFMT_Z_D24S8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[109]: 0x0000000b (DXFMT_Z_D15S1)
+2022-08-02T09:49:26.354Z In(05) svga    cap[110]: 0x000000f7 (DXFMT_LUMINANCE8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[111]: 0x000000e3 (DXFMT_LUMINANCE4_ALPHA4)
+2022-08-02T09:49:26.354Z In(05) svga    cap[112]: 0x000000f7 (DXFMT_LUMINANCE16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[113]: 0x000000e3 (DXFMT_LUMINANCE8_ALPHA8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[114]: 0x00000063 (DXFMT_DXT1)
+2022-08-02T09:49:26.354Z In(05) svga    cap[115]: 0x00000063 (DXFMT_DXT2)
+2022-08-02T09:49:26.354Z In(05) svga    cap[116]: 0x00000063 (DXFMT_DXT3)
+2022-08-02T09:49:26.354Z In(05) svga    cap[117]: 0x00000063 (DXFMT_DXT4)
+2022-08-02T09:49:26.354Z In(05) svga    cap[118]: 0x00000063 (DXFMT_DXT5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[119]: 0x000000e3 (DXFMT_BUMPU8V8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[120]: 0x00000000 (DXFMT_BUMPL6V5U5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[121]: 0x00000063 (DXFMT_BUMPX8L8V8U8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[122]: 0x00000000 (DXFMT_FORMAT_DEAD1)
+2022-08-02T09:49:26.354Z In(05) svga    cap[123]: 0x000003f7 (DXFMT_ARGB_S10E5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[124]: 0x000003f7 (DXFMT_ARGB_S23E8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[125]: 0x000003f7 (DXFMT_A2R10G10B10)
+2022-08-02T09:49:26.354Z In(05) svga    cap[126]: 0x000000e3 (DXFMT_V8U8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[127]: 0x00000063 (DXFMT_Q8W8V8U8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[128]: 0x00000063 (DXFMT_CxV8U8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[129]: 0x000000e3 (DXFMT_X8L8V8U8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[130]: 0x000000e3 (DXFMT_A2W10V10U10)
+2022-08-02T09:49:26.354Z In(05) svga    cap[131]: 0x000000f7 (DXFMT_ALPHA8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[132]: 0x000003f7 (DXFMT_R_S10E5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[133]: 0x000003f7 (DXFMT_R_S23E8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[134]: 0x000003f7 (DXFMT_RG_S10E5)
+2022-08-02T09:49:26.354Z In(05) svga    cap[135]: 0x000003f7 (DXFMT_RG_S23E8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[136]: 0x00000001 (DXFMT_BUFFER)
+2022-08-02T09:49:26.354Z In(05) svga    cap[137]: 0x0000026b (DXFMT_Z_D24X8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[138]: 0x000001e3 (DXFMT_V16U16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[139]: 0x000003f7 (DXFMT_G16R16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[140]: 0x000001f7 (DXFMT_A16B16G16R16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[141]: 0x00000001 (DXFMT_UYVY)
+2022-08-02T09:49:26.354Z In(05) svga    cap[142]: 0x00000041 (DXFMT_YUY2)
+2022-08-02T09:49:26.354Z In(05) svga    cap[143]: 0x00000041 (DXFMT_NV12)
+2022-08-02T09:49:26.354Z In(05) svga    cap[144]: 0x00000000 (DXFMT_FORMAT_DEAD2)
+2022-08-02T09:49:26.354Z In(05) svga    cap[145]: 0x000002e1 (DXFMT_R32G32B32A32_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[146]: 0x000003e7 (DXFMT_R32G32B32A32_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[147]: 0x000003e7 (DXFMT_R32G32B32A32_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[148]: 0x000000e1 (DXFMT_R32G32B32_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[149]: 0x000001e3 (DXFMT_R32G32B32_FLOAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[150]: 0x000001e3 (DXFMT_R32G32B32_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[151]: 0x000001e3 (DXFMT_R32G32B32_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[152]: 0x000002e1 (DXFMT_R16G16B16A16_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[153]: 0x000003e7 (DXFMT_R16G16B16A16_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[154]: 0x000003f7 (DXFMT_R16G16B16A16_SNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[155]: 0x000003e7 (DXFMT_R16G16B16A16_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[156]: 0x000002e1 (DXFMT_R32G32_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[157]: 0x000003e7 (DXFMT_R32G32_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[158]: 0x000003e7 (DXFMT_R32G32_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[159]: 0x00000261 (DXFMT_R32G8X24_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[160]: 0x00000269 (DXFMT_D32_FLOAT_S8X24_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[161]: 0x00000063 (DXFMT_R32_FLOAT_X8X24)
+2022-08-02T09:49:26.354Z In(05) svga    cap[162]: 0x00000063 (DXFMT_X32_G8X24_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[163]: 0x000002e1 (DXFMT_R10G10B10A2_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[164]: 0x000003e7 (DXFMT_R10G10B10A2_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[165]: 0x000003f7 (DXFMT_R11G11B10_FLOAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[166]: 0x000002e1 (DXFMT_R8G8B8A8_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[167]: 0x000003f7 (DXFMT_R8G8B8A8_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[168]: 0x000002f7 (DXFMT_R8G8B8A8_UNORM_SRGB)
+2022-08-02T09:49:26.354Z In(05) svga    cap[169]: 0x000003e7 (DXFMT_R8G8B8A8_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[170]: 0x000003e7 (DXFMT_R8G8B8A8_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[171]: 0x000002e1 (DXFMT_R16G16_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[172]: 0x000003e7 (DXFMT_R16G16_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[173]: 0x000003e7 (DXFMT_R16G16_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[174]: 0x000002e1 (DXFMT_R32_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[175]: 0x00000269 (DXFMT_D32_FLOAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[176]: 0x000003e7 (DXFMT_R32_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[177]: 0x000003e7 (DXFMT_R32_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[178]: 0x00000261 (DXFMT_R24G8_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[179]: 0x00000269 (DXFMT_D24_UNORM_S8_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[180]: 0x00000063 (DXFMT_R24_UNORM_X8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[181]: 0x00000063 (DXFMT_X24_G8_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[182]: 0x000002e1 (DXFMT_R8G8_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[183]: 0x000003f7 (DXFMT_R8G8_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[184]: 0x000003e7 (DXFMT_R8G8_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[185]: 0x000003e7 (DXFMT_R8G8_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[186]: 0x000002e1 (DXFMT_R16_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[187]: 0x000003f7 (DXFMT_R16_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[188]: 0x000003e7 (DXFMT_R16_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[189]: 0x000003f7 (DXFMT_R16_SNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[190]: 0x000003e7 (DXFMT_R16_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[191]: 0x000002e1 (DXFMT_R8_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[192]: 0x000003f7 (DXFMT_R8_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[193]: 0x000003e7 (DXFMT_R8_UINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[194]: 0x000003f7 (DXFMT_R8_SNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[195]: 0x000003e7 (DXFMT_R8_SINT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[196]: 0x00000001 (DXFMT_P8)
+2022-08-02T09:49:26.354Z In(05) svga    cap[197]: 0x000000e3 (DXFMT_R9G9B9E5_SHAREDEXP)
+2022-08-02T09:49:26.354Z In(05) svga    cap[198]: 0x000000e3 (DXFMT_R8G8_B8G8_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[199]: 0x000000e3 (DXFMT_G8R8_G8B8_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[200]: 0x000000e1 (DXFMT_BC1_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[201]: 0x000000e3 (DXFMT_BC1_UNORM_SRGB)
+2022-08-02T09:49:26.354Z In(05) svga    cap[202]: 0x000000e1 (DXFMT_BC2_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[203]: 0x000000e3 (DXFMT_BC2_UNORM_SRGB)
+2022-08-02T09:49:26.354Z In(05) svga    cap[204]: 0x000000e1 (DXFMT_BC3_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[205]: 0x000000e3 (DXFMT_BC3_UNORM_SRGB)
+2022-08-02T09:49:26.354Z In(05) svga    cap[206]: 0x000000e1 (DXFMT_BC4_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[207]: 0x00000063 (DXFMT_ATI1)
+2022-08-02T09:49:26.354Z In(05) svga    cap[208]: 0x000000e3 (DXFMT_BC4_SNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[209]: 0x000000e1 (DXFMT_BC5_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[210]: 0x00000063 (DXFMT_ATI2)
+2022-08-02T09:49:26.354Z In(05) svga    cap[211]: 0x000000e3 (DXFMT_BC5_SNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[212]: 0x00000045 (DXFMT_R10G10B10_XR_BIAS_A2_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[213]: 0x000002e1 (DXFMT_B8G8R8A8_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[214]: 0x000002f7 (DXFMT_B8G8R8A8_UNORM_SRGB)
+2022-08-02T09:49:26.354Z In(05) svga    cap[215]: 0x000002e1 (DXFMT_B8G8R8X8_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[216]: 0x000002f7 (DXFMT_B8G8R8X8_UNORM_SRGB)
+2022-08-02T09:49:26.354Z In(05) svga    cap[217]: 0x0000006b (DXFMT_Z_DF16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[218]: 0x0000006b (DXFMT_Z_DF24)
+2022-08-02T09:49:26.354Z In(05) svga    cap[219]: 0x0000006b (DXFMT_Z_D24S8_INT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[220]: 0x00000001 (DXFMT_YV12)
+2022-08-02T09:49:26.354Z In(05) svga    cap[221]: 0x000003f7 (DXFMT_R32G32B32A32_FLOAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[222]: 0x000003f7 (DXFMT_R16G16B16A16_FLOAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[223]: 0x000003f7 (DXFMT_R16G16B16A16_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[224]: 0x000003f7 (DXFMT_R32G32_FLOAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[225]: 0x000003f7 (DXFMT_R10G10B10A2_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[226]: 0x000003f7 (DXFMT_R8G8B8A8_SNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[227]: 0x000003f7 (DXFMT_R16G16_FLOAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[228]: 0x000003f7 (DXFMT_R16G16_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[229]: 0x000003f7 (DXFMT_R16G16_SNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[230]: 0x000003f7 (DXFMT_R32_FLOAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[231]: 0x000003f7 (DXFMT_R8G8_SNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[232]: 0x000003f7 (DXFMT_R16_FLOAT)
+2022-08-02T09:49:26.354Z In(05) svga    cap[233]: 0x00000269 (DXFMT_D16_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[234]: 0x000002f7 (DXFMT_A8_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[235]: 0x000000e3 (DXFMT_BC1_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[236]: 0x000000e3 (DXFMT_BC2_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[237]: 0x000000e3 (DXFMT_BC3_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[238]: 0x000002f7 (DXFMT_B5G6R5_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[239]: 0x000002f7 (DXFMT_B5G5R5A1_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[240]: 0x000003f7 (DXFMT_B8G8R8A8_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[241]: 0x000003f7 (DXFMT_B8G8R8X8_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[242]: 0x000000e3 (DXFMT_BC4_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[243]: 0x000000e3 (DXFMT_BC5_UNORM)
+2022-08-02T09:49:26.354Z In(05) svga    cap[244]: 0x00000001 (SM41)
+2022-08-02T09:49:26.354Z In(05) svga    cap[245]: 0x00000001 (MULTISAMPLE_2X)
+2022-08-02T09:49:26.354Z In(05) svga    cap[246]: 0x00000001 (MULTISAMPLE_4X)
+2022-08-02T09:49:26.354Z In(05) svga    cap[247]: 0x00000001 (MS_FULL_QUALITY)
+2022-08-02T09:49:26.354Z In(05) svga    cap[248]: 0x00000001 (LOGICOPS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[249]: 0x00000001 (LOGIC_BLENDOPS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[250]: 0x00000000 (DEAD12)
+2022-08-02T09:49:26.354Z In(05) svga    cap[251]: 0x000000e1 (DXFMT_BC6H_TYPELESS)
+2022-08-02T09:49:26.354Z In(05) svga    cap[252]: 0x000000e3 (DXFMT_BC6H_UF16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[253]: 0x000000e3 (DXFMT_BC6H_SF16)
+2022-08-02T09:49:26.354Z In(05) svga    cap[254]: 0x000000e1 (DXFMT_BC7_TYPELESS)
+2022-08-02T09:49:26.355Z In(05) svga    cap[255]: 0x000000e3 (DXFMT_BC7_UNORM)
+2022-08-02T09:49:26.355Z In(05) svga    cap[256]: 0x000000e3 (DXFMT_BC7_UNORM_SRGB)
+2022-08-02T09:49:26.355Z In(05) svga    cap[257]: 0x00000000 (DEAD13)
+2022-08-02T09:49:26.355Z In(05) svga    cap[258]: 0x00000001 (SM5)
+2022-08-02T09:49:26.355Z In(05) svga    cap[259]: 0x00000001 (MULTISAMPLE_8X)
+2022-08-02T09:49:26.355Z In(05) svga    cap[260]: 0x00000008 (MAX_FORCED_SAMPLE_COUNT)
+2022-08-02T09:49:26.355Z In(05) svga    cap[261]: 0x00000001 (GL43)
+2022-08-02T09:49:26.357Z In(05) svga  ReplayFifo: mksReplay format version=18
+2022-08-02T09:49:26.357Z In(05) svga  MKSRoleReplay: MKSRoleReplay_Run: Starting.
+2022-08-02T09:49:33.142Z In(05) mks  SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 1.
+2022-08-02T09:49:33.142Z In(05) mks  MKSXInput: XI major version 2, minor version 3
+2022-08-02T09:49:33.143Z In(05) mks  XINFO: X fd is 14
+2022-08-02T09:49:33.143Z In(05) mks  XINFO: depth 24 bpp 32 class 4
+2022-08-02T09:49:33.143Z In(05) mks  XINFO:  ServerVendor: "The X.Org Foundation"
+2022-08-02T09:49:33.143Z In(05) mks  XINFO: VendorRelease: 12013000
+2022-08-02T09:49:33.144Z In(05) mks  XINFO: XKB available, version 1.0
+2022-08-02T09:49:33.144Z In(05) mks  XINFO: XTEST available, version 2.2
+2022-08-02T09:49:33.144Z In(05) mks  XINFO: Xinerama available
+2022-08-02T09:49:33.144Z In(05) mks  XKeymap_PowerOn: use evdev keycode mapping.
+2022-08-02T09:49:33.185Z In(05) mks  Vulkan Renderer: Creating swapchain with 2 images
+2022-08-02T09:49:33.192Z Wa(03) mks  Vulkan Renderer: Using Vulkan presentation
+2022-08-02T09:49:33.192Z In(05) mks  MKS-HWinMux: Started VK presentation backend.
+2022-08-02T09:49:33.215Z In(05) svga  Vulkan Renderer: Creating swapchain with 2 images
+2022-08-02T09:51:16.806Z In(05) svga  Vulkan Renderer: Creating swapchain with 2 images
+2022-08-02T09:51:58.887Z In(05) svga  Vulkan Renderer: Creating swapchain with 2 images
+2022-08-02T09:51:59.048Z In(05) svga  Vulkan Renderer: Creating swapchain with 2 images
+2022-08-02T09:51:59.269Z In(05) svga  Vulkan Renderer: Creating swapchain with 2 images
+2022-08-02T10:02:37.664Z In(05) mks  MKSThread: Requesting MKS exit
+2022-08-02T10:02:37.664Z In(05) svga  MKSSandboxComm: ISB closed the channel while reading
+2022-08-02T10:02:37.665Z In(05) svga  MKSRoleReplay: MKSRoleReplay_Run: Finished.
+2022-08-02T10:02:37.665Z In(05) main  Stopping MKS/SVGA threads
+2022-08-02T10:02:37.668Z In(05) mks  XINFO: Disconnecting
+2022-08-02T10:02:37.668Z In(05) mks  XConnection: Closing console display
+2022-08-02T10:02:37.669Z In(05) mks  SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 0.
+2022-08-02T10:02:37.669Z In(05) main  MKS/SVGA threads are stopped
+2022-08-02T10:02:37.669Z In(05) main  MKSRoleMain: Powering off.
+2022-08-02T10:02:37.669Z In(05) main  MKSRoleMain: Powering off MKS
+2022-08-02T10:02:37.669Z In(05) mks  MKSControlMgr: disconnected
+2022-08-02T10:02:37.670Z In(05) mks  Stopped Shim3D
+2022-08-02T10:02:37.695Z In(05) mks  MKS-RenderMain: Stopped VKRenderer
+2022-08-02T10:02:37.695Z In(05) mks  MKS PowerOff
+2022-08-02T10:02:37.696Z In(05) svga  SVGA thread is exiting
+2022-08-02T10:02:37.696Z In(05) mks  MKS thread is exiting
+2022-08-02T10:02:37.696Z In(05) main  MKSRoleMain: Powering off SigMKS
+2022-08-02T10:02:37.696Z In(05) main  MKSRoleMain: Exiting...
+2022-08-02T10:02:37.696Z In(05) main  MKSRoleMain: Exiting MKS
+2022-08-02T10:02:37.696Z In(05) main  MKSRoleMain: Exiting Sig
+2022-08-02T10:02:37.696Z In(05) main  MKSRoleMain: Skipping SSL (already exited)
+2022-08-02T10:02:37.696Z In(05) main  MKSRoleMain: Exiting Poll
+2022-08-02T10:02:37.696Z In(05) main  MKSRoleMain: Exiting Log
